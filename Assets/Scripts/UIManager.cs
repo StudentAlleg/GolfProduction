@@ -410,4 +410,8 @@ public class UIManager : MonoBehaviour
         _holeCountText.text = holeCount.ToString();
     }
 
+    public void UpdateScoreboard(PlayerData playerData) {
+        
+    }
+
 }

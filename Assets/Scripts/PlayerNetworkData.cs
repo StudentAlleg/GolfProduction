@@ -62,6 +62,7 @@ public class PlayerNetworkData : NetworkBehaviour
                 //  MAYBE WE SHOULD MOVE THE BALL TO THE NEXT HOLE HERE
             }
 
+            GetComponent<UIManager>().UpdateScoreboard(newData);
             // MAYBE WE SHOULD UPDATE THE UI HERE
         }
 
