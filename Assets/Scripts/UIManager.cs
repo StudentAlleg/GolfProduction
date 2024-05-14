@@ -76,6 +76,10 @@ public class UIManager : MonoBehaviour
     [Header("Controls UI Elements")]
     [SerializeField] private GameObject _controlsScreenUI;
     [SerializeField] private Button _controlsBackButton;
+    [Header("Scoreboard")]
+    [SerializeField] private GameObject _scoreboardObject;
+    
+    
     [Header("Other")]
     [SerializeField] private TMP_Text _holeCountText;
 
@@ -410,7 +414,8 @@ public class UIManager : MonoBehaviour
         _holeCountText.text = holeCount.ToString();
     }
 
-    public void UpdateScoreboard(PlayerData playerData) {
+    public void UpdateScoreboard(PlayerData playerData)
+    {
         
     }
 
